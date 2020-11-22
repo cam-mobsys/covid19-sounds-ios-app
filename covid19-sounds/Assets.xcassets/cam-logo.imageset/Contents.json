@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "University_of_Cambridge_logo_logotype.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "University_of_Cambridge_logo_logotype-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "University_of_Cambridge_logo_logotype-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

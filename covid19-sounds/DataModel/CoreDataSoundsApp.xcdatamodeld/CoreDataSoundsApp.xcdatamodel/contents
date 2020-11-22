@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="QuestionnaireDaily" representedClassName=".QuestionnaireDaily" syncable="YES">
+        <attribute name="audio_breathe" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="audio_cough" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="audio_read" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="covid" optional="YES" attributeType="String"/>
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="symptoms" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Token" representedClassName=".Token" syncable="YES">
+        <attribute name="access_token" optional="YES" attributeType="String"/>
+        <attribute name="expires_in" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="refresh_token" optional="YES" attributeType="String"/>
+        <attribute name="refreshed_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="last_completed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="uploaded_initial" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="QuestionnaireDaily" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Token" positionX="-54" positionY="63" width="128" height="103"/>
+        <element name="User" positionX="-45" positionY="72" width="128" height="103"/>
+    </elements>
+</model>

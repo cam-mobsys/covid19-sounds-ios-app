@@ -1,0 +1,9 @@
+type_name:
+ allowed_symbols: "_"
+
+identifier_name:
+ allowed_symbols: "_"
+ min_length:
+     error: 1
+     warning: 1
+

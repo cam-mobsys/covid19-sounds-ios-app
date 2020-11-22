@@ -1,0 +1,377 @@
+/*
+ Localizable.strings
+ covid19-sounds
+ 
+ Authors (order of contribution):
+ 
+ Andreas Grammenos
+ Api Hastanasombat
+ 
+ Translator notes:
+  The file contains the views in alphabetical order as shown in Xcode, currently they are the following:
+ 
+ - Common Strings across views
+ 
+ then each string for the following views (α-β ordering with subfolders)
+ 
+ Common Strings (first), then:
+ 
+ * Views
+ |
+ - AgeCheckView
+ - AgeView
+ - AudioBreatheViewExt
+ - AudioCoughViewExt
+ - AudioPermissionDeniedView
+ - AudioReadViewExt
+ - AudioRecordViewBase
+ - COVIDStatusNegativeTestedView
+ - COVIDStatusPositiveTestedView
+ - COVIDStatusPossibleInfectionView
+ - COVIDStatusView
+ - EndDemographicsView
+ - EndView
+ - ExistingConditionsView
+ - GenderView
+ - HospitalView
+ - IntroductionView
+ - LocationViewExt
+ * RecorderSubViews
+ |
+ -- RecorderNextView
+ - SmokeStatusView
+ * Subviews
+ |
+ -- ActivityIndicatorView
+ -- EnableNotificationsView
+ -- EndViewBottonTextView
+ -- EndViewErrorView
+ -- EndViewGoToHomeView
+ -- EndViewTopTextView
+ -- IntroductionLandingTextView
+ -- UploadButtonView
+ - SymptomsView
+ * Utilities
+ |
+ -- ActivityIndicator
+ * ViewStyles
+ |
+ -- NavigationLinkFactory
+ -- NavigationLinkModifiers
+ -- PreRecordingTextFactory
+ -- RecorderButtonFactory
+ -- Styles
+ -- TextViewFactory
+ 
+ Translator: C. Mascolo
+ None for English (base language)
+ 
+ Copyright © 2020 Computer Lab / Mobile Systems Group. All rights reserved.
+ */
+
+// MARK: - COMMENTS START
+
+ 
+//
+// MARK: - Common Strings
+//
+
+"COVID19 Sounds" = "COVID19 Sounds";
+
+"Next" = "Avanti";
+"Thank you!" = "Grazie!";
+"Never" = "Mai";
+"pnts" = "Preferisco non dirlo";
+"noneTag" = "Nessuno";
+"Yes" = "Si";
+"No" = "No";
+"Warning" = "Attenzione";
+
+// MARK: - AgeCheckView
+//
+
+"participationText" = "Per partecipare a questo studio devi avere almeno 16 anni.";
+
+"confirmOver16" = "Conferma che hai almeno 16 anni.";
+
+"over16OK" = "Ho almeno 16 anni";
+
+// MARK: - AgeView
+//
+
+// text
+"How old are you?" = "Quanti anni hai?";
+
+// picker options - no translation needed for most, only for the last one
+"90 and above" = "piu' di 90";
+
+// MARK: - AudioBreatheViewExt
+//
+
+"breathePreRecordingText" = "Schiaccia il bottone rosso e
+ispira ed espira cinque volte dalla bocca il più profondamente possibile. Si prega di farlo in un ambiente tranquillo.";
+
+"breatheRecordingText" = "inspira ed espira cinque volte dalla bocca il più profondamente possibile. Si prega di farlo in un ambiente tranquillo. Schiaccia Stop quando hai finito.";
+
+
+// MARK: - AudioCoughViewExt
+//
+
+"coughPreRecordingText" = "Schiaccia il bottone rosso e tossisci tre volte.";
+
+"coughRecordingText" = "Tossisci tre volte. Schiaccia Stop quando hai finito.";
+
+// MARK: - AudioPermissionDeniedView
+//
+
+"Microphone access denied" = "Accesso al microfono negato";
+
+"Please allow microphone access" = "Permetti l’accesso al microfono";
+
+"Check access" = "Controlla l’accesso";
+
+"Microphone access is denied, please enable through phone settings" = "Accesso al microfono negato, abilita l’accesso nei setting del telefono";
+
+// MARK: - AudioReadViewExt
+//
+
+"readPreRecordingText" = "Schiaccia il bottone rosso e leggi la frase seguente tre volte.";
+
+"readRecordingTopText" = "Leggi la frase seguente tre volte.";
+
+"readRecordingContentText" = "'Spero che i miei dati siano utili a gestire la pandemia del virus.";
+
+// MARK: - AudioRecorderViewBase
+//
+
+"Time remaining %lld" = "Tempo rimanente %lld";
+
+// MARK: - Common Audio Text Strings
+//
+
+"Invalid Recording" = "Registrazione non valida";
+"recordingDurationErrorText" = "La registrazione e' meno di un 1 secondo. Prova di nuovo.";
+"postRecordingText" = "Puoi riascoltare la tua registrazione schiacciando Registra. o riregistrare schiacciando il bottone rosso. Quando hai finito schiaccia Avanti.";
+"pressStopText" = "Schiacca Stop quando hai finito.";
+
+// MARK: - COVIDStatusNegativeTestedView
+//
+
+// legend
+"Have you tested positive before?" = "Sei stato mai testato prima?";
+
+"Last 14 days" = "Negli ultimi 14 giorni";
+"Over 14 days ago" = "Piu’ di 14 giorni fa";
+// never already done.
+
+// MARK: - COVIDStatusPositiveTestedView
+//
+
+// legend
+"When did you tested positive?" = "Quanto sei risultato positive a un tampone?";
+
+// picker entries already already done.
+
+// MARK: - COVIDStatusPossibleInfectionView
+//
+
+// legend
+"Do you think you ever have/had a COVID-19 infection?" = "Pensi di avere (avuto) COVID-19?";
+
+// picker entries.
+"Yes, now" = "Si, ora";
+"Yes, in last 14 days" = "Si, negli ultimi 14 giorni";
+"Yes, over 14 days ago" = "Si, piu’ di 14 giorni fa";
+// prefer not to say already done.
+
+// MARK: - COVIDStatusView
+//
+
+
+// legend
+//"covidStatusLegend" = "What is your current COVID-19 testing status?";
+"covidStatusLegend" = "Riporta lo stato del tuo tampone COVID-19";
+
+// picker options
+"Never tested" = "Mai fatto";
+"Positive" = "Positivo";
+"Negative" = "Negativo";
+// prefer not to say already done
+
+// MARK: - EndDemographicsView
+//
+
+// legend
+"endDemographicsText" = "Grazie! Hai completato il questionario.\n\n Ora passiamo al questionario dei sintomi.";
+
+// next is already done.
+
+// MARK: - EndView
+//
+
+// Nothing specific for the main view - only subviews
+
+// EndViewTopTextView
+
+"completedReportText" = "Hai completato il questionario dei sintomi per oggi.";
+
+"notificationScheduledText" = "Riceverai una notifica quando sara' ora di completare il questionario di nuovo.";
+
+"disabledNotificationText" = "Hai disabilitato le notifiche, per favore consenti loro tramite le impostazioni";
+
+// EndViewBottomTextView
+
+"You can view our privacy policy at:" = "Puoi consultare la nostra nota sulla privacy qui::";
+
+// EndViewErrorView
+
+"endViewErrorText" = "Non siamo stati capaci di caricare i dati sul server, controlla la connessione e riprova.";
+
+"Try again" = "Riprova";
+
+"Tried times %lld %lld" = "Provato %lld volta su %lld";
+
+// EnableNotificationView
+
+"Enable survey notifications?" = "Abilitare le notifiche del sondaggio?";
+
+"Enable" = "Permettere";
+
+// MARK: - ExistingConditionsView
+//
+
+// legend
+"medConditionsText" = "Hai altre di queste malattie? (può scegliere più di uno)?";
+
+// toggle options
+"Asthma" = "Asma";
+"Cystic fibrosis" = "Fibrosi Cistica";
+"COPD/Emphysema" = "Enfisema";
+"Pulmonary fibrosis" = "Fibrosi Polmonare";
+"Other lung disease" = "Altre malattie polmonari";
+"High Blood Pressure" = "Pressione Alta";
+"Previous stroke or Transient Ischaemic Attack" = "Ictus o Ischemia";
+"Previous heart attack" = "Infarto";
+"Valvular heart disease" = "Patologie alle valvole cardiache";
+"Other heart disease" =  "Altre patologie cardiache";
+"Diabetes" = "Diabete";
+"Cancer" = "Tumore";
+"Previous organ transplant" = "Ricevuto trapianto di organi";
+"HIV or an impaired immune system" = "AIDS o sistema immunitario compromesso";
+"Other long-term condition" = "Altre patologie croniche";
+// none and pnts already defined above
+
+// MARK: - GenderView
+//
+
+"bioSex" = "Di che sesso sei?";
+
+// picker options
+"maleTag" = "Maschio";
+"femaleTag" = "Femmina";
+"otherTag" = "Altro";
+// pnts already defined above
+
+// MARK: - HospitalView
+//
+
+// legend
+"Are you in hospital now?" = "Sei in ospedale?";
+
+// picker options
+// all done already
+
+// MARK: - IntroductionView
+//
+
+"topTextIntroductionView" = "Questa app ha lo scopo di raccogliere dati (principalmente tosse, respiro e voce) come parte di un progetto (covid-19-sounds.org) che potrebbe informare la diagnosi di COVID-19.";
+
+"bottomTextIntroductionView" = "La app raccoglie dati demografici di base, profilo medico, alcuni campioni di voce (quando l’utente legge testo sullo schermo) a alcuni secondi di respiro e tosse. La app raccoglie anche un campione della locazione dell’utente.";
+
+// MARK: - LocationView
+//
+
+"locationProbeText" = "Adesso vorremmo registrare la tua posizione";
+
+"locationProbeDeniedText" = "La registrazione della posizione e' stata negata. non raccoglieremo la tua posizione.";
+
+"Set Permissions" = "Registra i Permessi";
+
+// activity indicator bits
+"Creating User..." = "Utente in creazione...";
+"Exchanging Token..." = "Scambio dei token...";
+"Uploading..." = "Caricamento dati al server...";
+"Unable to upload data!" = "Non siamo stati capaci di caricare i dati sul server!";
+"Loading..." = "Caricamento in corso...";
+
+// MARK: - RecorderSubViews
+//
+
+// Nothing that needs translating here.
+
+// MARK: - SmokeStatusView
+//
+
+// legend
+"smokeStatusText" = "Fumi o hai mai fumato (anche sigarette elettroniche)?";
+
+// picker options
+"Never smoked" = "Mai Fumato";
+"Less than once a day" = "Meno di una al giorno";
+"1-10 cigarettes per day" = "Fumo (da 1 a 10 sigarette al giorno)";
+"11-20 cigarettes per day" = "Fumo (da 11 a 20 sigarette al giorno)";
+"21+ cigarettes per day" = "Fumo (piu' di 20 sigarette al giorno)";
+"e-cigarettes only" = "Solo sigarette elettroniche";
+"Ex-smoker" = "Ex-fumatore";
+// pnts already defined above
+
+// MARK: - SubViews
+//
+
+// Nothing that needs translating here.
+
+// MARK: - SymptomsView
+//
+
+// legend
+"symptomsText" = "Hai uno dei seguenti sintomi?";
+
+// toggle options
+"Fever" = "Febbre";
+"Chills" = "Brividi";
+"Dry cough" = "Tosse Secca";
+"Wet cough" = "Tosse Morbida";
+"Difficulty breathing or feeling short of breath" = "Difficolta’ a respirare o fiato corto";
+"Tightness in your chest" = "Oppressione toracica";
+"Headache" = "Mal di Testa";
+"Muscle aches" = "Male ai muscoli";
+"Sore throat" = "Mal di gola";
+"Runny or blocked nose" = "Congestione nasale e naso che cola";
+"Loss of taste and smell" = "Perdita di gusto e olfatto";
+"Dizziness, confusion or vertigo" = "Capogiri, confusione o vertigini";
+
+// MARK: - Utilities
+//
+
+// Nothing that needs translating here.
+
+// MARK: - ViewStyles
+//
+
+// Nothing that needs translating here; NOTE: some are but are in their respective views that they actually appear.
+
+
+// MARK: - Non-View related translations
+//
+//
+
+//
+// MARK: - Notification related text
+//
+
+"How are you feeling?" = "Come stai oggi?";
+
+"Take a moment to complete a brief assessment" = "Per favore, completa il questionario";
+
+// MARK: - App error translation
+//
