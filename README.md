@@ -6,16 +6,16 @@
 <!-- passing marks -->
 
 <p align="center">
-  <a href="https://github.com/andylamp/covid19-sounds-ios/workflows/build.yml">
-    <img src="https://github.com/andylamp/covid19-sounds-ios/workflows/Xcode%20Build/badge.svg" alt="Xcode build pass check" />
+  <a href="https://github.com/cam-mobsys/covid19-sounds-ios/workflows/build.yml">
+    <img src="https://github.com/cam-mobsys/covid19-sounds-ios/workflows/Xcode%20Build/badge.svg" alt="Xcode build pass check" />
   </a>
-  <a href="https://github.com/andylamp/covid19-sounds-ios/workflows/swiftlint.yml">
-    <img src="https://github.com/andylamp/covid19-sounds-ios/workflows/SwiftLint/badge.svg" alt="SwiftLint check" />
+  <a href="https://github.com/cam-mobsys/covid19-sounds-ios/workflows/swiftlint.yml">
+    <img src="https://github.com/cam-mobsys/covid19-sounds-ios/workflows/SwiftLint/badge.svg" alt="SwiftLint check" />
   </a>
   <a href="https://swift.org/">
     <img src="https://img.shields.io/badge/swift-5.3-orange.svg" alt="Swift Version" />
   </a>
-  <a href="https://github.com/andylamp/covid19-sounds-ios/graphs/commit-activity">
+  <a href="https://github.com/cam-mobsys/covid19-sounds-ios/graphs/commit-activity">
     <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained status"/>
   </a>
 <p>
@@ -34,7 +34,7 @@ Every sample helps! To do so, you can get the app through the App Store followin
 
 <p align="center">
   <a href="https://apps.apple.com/gb/app/covid19-sounds/id1510614550">
-    <img src="https://github.com/andylamp/covid19-sounds-ios/blob/master/assets/hero-store-link.jpg" alt="Store link" width="30%"/>
+    <img src="https://github.com/cam-mobsys/covid19-sounds-ios/blob/master/assets/hero-store-link.jpg" alt="Store link" width="30%"/>
   </a>
 </p>
 
