@@ -144,7 +144,7 @@ This code unless otherwise stated, is governed by the terms and conditions of th
 
 If you find our paper useful or use this code, please consider citing our work as such:
 
-```
+```bib
 @inproceedings{10.1145/3394486.3412865,
 author = {Brown, Chlo\"{e} and Chauhan, Jagmohan and Grammenos, 
 Andreas and Han, Jing and Hasthanasombat, Apinan and Spathis, 
